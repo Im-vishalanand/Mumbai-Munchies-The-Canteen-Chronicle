@@ -49,7 +49,7 @@ def updateAvailability():
     print("Snack not found.")
 
 
-def sell_snack():
+def sellSnack():
     snack_id = input("Enter the snack ID: ")
 
     for snack in snack_inventory:
@@ -109,7 +109,7 @@ def handle_user_choice(choice):
     elif choice == "3":
         updateAvailability()
     elif choice == "4":
-        sell_snack()
+        sellSnack()
     elif choice == "5":
         allSnacks()
     elif choice == "6":
